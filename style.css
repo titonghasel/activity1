@@ -1,0 +1,72 @@
+.navbar-brand{
+    font-family: 'Times New Roman', Times, serif;
+    font: size 45px;
+    color:rgb(122, 18, 53)
+}
+
+.btn{
+    padding: 12px 50px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 0;
+    
+}
+.btn-brand{
+    background-color: #304430;
+    color: #fff;
+}
+
+.btn-brand:hover{
+    border:2px solid #304430;
+
+}
+
+.navbar .nav-link{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: #304430;
+    text-transform:uppercase;
+}
+
+#banner{
+    background: url('background1.jpg');
+    height: 90vh;
+    background-size:cover;
+    background-position:center ;
+    background-repeat: no-repeat;
+}
+#banner h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+}
+#banner p {
+    font-size: 30px;
+}
+
+
+section{ 
+    padding:100px 0;
+}
+
+.card-img-top{
+    width:50px;
+}
+
+.card {
+    border-radius:0;
+    margin-top: 30px;
+    border: 3px solid #304430;
+    padding: 20px;
+
+}
+
+.card .card-title{
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+
+#sheesh{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
