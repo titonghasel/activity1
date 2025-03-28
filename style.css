@@ -70,3 +70,85 @@ section{
     font-family: 'Times New Roman', Times, serif;
     font-size: 50px;
 }
+
+#about  .ngee{
+    height:80vh;
+    background:url("background1.jpg");
+    background-size: cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+}
+
+#about  .eyy{
+    padding: 100px;
+
+}
+
+#about h2, #about h4 {
+font-family: 'Times New Roman', Times, serif;
+
+}
+
+#about {
+    background-color:#4e7062;
+
+}
+
+.testimonials {
+   border: 4px solid #304430;
+   margin-top:20px ;
+   padding: 20px;
+}
+
+.testemonials img {
+    width:75px;
+    border-radius: 50%;
+}
+
+
+#faq {
+    background:rgb(77, 117, 155);
+}
+
+#faq h2 {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+.faq-section {
+    max-width: 800px;
+    border-radius: 0!important;
+}
+
+.accordion-button {
+    background-color:#0c0b0b;
+    border:none;
+    border-bottom: 1px solid cadetblue;
+    border-radius: 0 !important;
+    padding: 15px;
+    font-size:18px;
+    font-weight:500;
+    color:#304430;
+    cursor:pointer;
+    transition:background-color 0.3s, color 0.3s;
+
+}
+
+.according-body {
+    border-left:3px solid cadetblue;
+    padding:10px 15px;
+    margin-left:0;
+    background-color:#240b0b
+
+}
+
+.accordion-button:not(.collapsed) {
+    background-color:#304430;
+    color:#000000;
+}
+
+.accordion-button:hover {
+    background-color:#304430;
+    color:#fff;
+}
