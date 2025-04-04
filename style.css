@@ -13,7 +13,7 @@
 }
 .btn-brand{
     background-color: #304430;
-    color: #fff;
+    color: #1557d1;
 }
 
 .btn-brand:hover{
@@ -139,7 +139,7 @@ font-family: 'Times New Roman', Times, serif;
     border-left:3px solid cadetblue;
     padding:10px 15px;
     margin-left:0;
-    background-color:#240b0b
+    background-color:#1d1b1b
 
 }
 
@@ -150,5 +150,51 @@ font-family: 'Times New Roman', Times, serif;
 
 .accordion-button:hover {
     background-color:#304430;
-    color:#fff;
+    color:#babdc5;
+}
+
+
+footer {
+padding-top:50px;
+padding-bottom: 50px;
+background-color:rgb(27, 21, 25) ;
+}
+
+#footer ul.list-unstyled li a {
+    color:aquamarine;
+    text-decoration: none;
+}
+
+#footer ul.list-unstyled li:hover a{
+    color:rgb(27, 24, 25)
+}
+
+@media screen and (max-width: 767px) {
+    h1 {
+        font-size: 30px !important;
+    }
+
+    #sheesh h2 {
+        font-size: 30px;
+    }
+
+    #sheesh .col-lg-3 {
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    
+.card .card-text{
+    font-size: 15px;
+}
+
+#about .eyyy{
+    padding: 40px;
+}
+
+#about .ngee {
+    height: 300px;
+}
 }
